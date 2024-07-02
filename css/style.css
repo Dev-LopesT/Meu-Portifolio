@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--cor-background);
+  color: var(--cor-texto);
+  box-sizing: border-box;
+}
+
+.cabecalho__lista {
+  display: flex;
+  gap: 80px;
+  padding: 2% 0 0 15%;
+}
+
+.cabecalho__item__lista {
+  font-family: "Montserrat", sans-serif;
+  color: var(--cor-terciaria);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.apresentacao {
+  padding: 4% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacao__conteudo p {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+  font-family: "Krona One", sans-serif;
+}
+
+.destaqueTitulo {
+  color: var(--cor-terciaria);
+}
+
+.apresentacao__links {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.apresentacao__links__titulo {
+  font-size: 24px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 4000;
+}
+
+.botoesEstilo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: 2px solid var(--cor-terciaria);
+  text-align: center;
+  width: 378px;
+  padding: 21.5px 0px;
+  border-radius: 8px;
+  color: var(--cor-texto);
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.botoesEstilo:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+}
+
+img {
+  width: 488px;
+}
+
+#icon__Instagram {
+  width: 32px;
+  height: 32px;
+}
+
+.rodape {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  background-color: var(--cor-terciaria);
+  padding: 24px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.rodape__item {
+  color: var(--cor-background);
+}
+
+.estilo__Nome {
+  color: var(--cor-texto);
+}
