@@ -9,6 +9,7 @@
 }
 
 body {
+  width: 100%;
   background-color: var(--cor-background);
   color: var(--cor-texto);
   box-sizing: border-box;
